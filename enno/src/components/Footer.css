@@ -1,0 +1,165 @@
+.footer {
+  color: var(--default-color);
+  background-color: var(--background-color);
+  font-size: 14px;
+  position: relative;
+}
+
+.newseltter {
+  padding: 60px 0;
+  background-color: #f5f5f5;
+}
+.newseltter .row {
+  margin-right: 0;
+}
+.newseltter .text-center {
+  text-align: center;
+}
+
+.footer-about a {
+  color: #5f687b !important;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+
+.newseltter h4 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif !important;
+  padding-bottom: 12px;
+  color: #5f687b;
+}
+
+.newseltter p {
+  margin-bottom: 16px;
+  color: #444444;
+  font-size: 14px;
+}
+
+.cta-btnn {
+  display: inline-block;
+  padding: 12px 40px;
+  margin: 10px;
+  background: #10bc69;
+  color: white;
+  border-radius: 27px;
+  font-weight: 600;
+  border: 1px solid white;
+}
+.cta-btnn:hover{
+  background-color: #28ca7c;
+}
+.footer-top {
+  background: #ffffff;
+  padding-top: 50px;
+}
+
+.footer-about .sitename {
+  font-size: 24px;
+  font-weight: bold;
+  /* color: #333; */
+  text-decoration: none;
+}
+
+.footer-contact p {
+  /* margin: 0;
+  color: #555; */
+  margin-bottom: 5px;
+}
+
+.footer-links h4,
+.footerr h4 {
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 12px;
+  color: #5f687b;
+  font-family: "Raleway", sans-serif;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+  color: #10bc69;
+}
+
+.footer-links a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: inline-block;
+  color: color-mix(in srgb, #444444, transparent 20%);
+  line-height: 1;
+}
+
+/* .footer-links a:hover {
+  color: #0056b3;
+} */
+
+.social-links a {
+  margin-right: 15px;
+  color: #555;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover ,.footer-links a:hover{
+  color: #10bc69;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+}
+
+.footer-contact {
+  padding-top: 16px;
+}
+
+.phoneEmail{
+  margin-top: 16px;
+}
+
+
+.footer-container {
+  padding: 20px;
+  /* background-color: #f8f9fa; */
+  font-size: 14px;
+  /* color: #6c757d; */
+}
+
+.footer-container .sitename {
+  font-weight: bold;
+}
+
+.footer-container .credits {
+  margin-top: 6px;
+  font-size: 13px;
+}
+
+.footer-container .credits a {
+  color: #10bc69;
+  text-decoration: none;
+}
+
+.footer-container .credits a:hover {
+  text-decoration: underline;
+}
+
+
+.social-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  color: inherit;
+  font-size: 1.5rem; /* Adjust icon size */
+}
+.social-btn:focus {
+  outline: 2px solid #000; /* Make focus visible */
+}

@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none !important;
+  list-style-type: none;
+  /* color: #5f687b; */
+  font-family: "Raleway", sans-serif;
+}
+
+Button {
+  color: rgb(61, 204, 61);
+}
+
+.aos-animate {
+    pointer-events: auto;
+        transition-delay: .1s;
+}
+
+.Services-Card {
+  background-color: #f9f9f9;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.Head-title {
+  opacity: 1;
+  -webkit-transform: none;
+  transform: none;
+  text-align: center;
+  padding-bottom: 30px ;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.Head-title span {
+  position: relative;
+  top: 40px;
+  color: color-mix(in srgb, #777a7e, transparent 95%);
+  z-index: 1;
+  font-weight: 700;
+  font-size: 52px;
+  text-transform: uppercase;
+  /* color: rgba(121, 119, 119, 0.1); light gray */
+}
+/* 5f687b */
+
+.Head-title h1 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  position: relative;
+  z-index: 2;
+  color: #5f687b;
+  font-family: "Raleway", sans-serif;
+}
+
+.Head-title p {
+  margin-bottom: 0;
+  position: relative;
+  z-index: 2;
+}

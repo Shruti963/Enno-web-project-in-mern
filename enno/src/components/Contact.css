@@ -1,0 +1,129 @@
+/* Main Section */
+.contact-main {
+  background-color: #ffffff;
+  color: #444444;
+  font-family: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  padding: 40px 20px;
+}
+
+/* Info Box */
+.contact-main .info-wrap {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  height: 100%;
+}
+
+.contact-main .info-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+
+.contact-main .info-item i {
+  font-size: 20px;
+  color: #10bc69;
+  background: color-mix(in srgb, #10bc69, transparent 92%);
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  animation: all 0.3s ease-in-out;
+  margin-right: 15px;
+}
+
+.info-item h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #5f687b;
+}
+
+.info-item p {
+  /* margin: 5px 0 0; */
+  color: #444444;
+  margin-bottom: 0px;
+  font-size: 14px;
+  padding: 0px;
+}
+
+/* Contact Form */
+.email-form {
+  background-color: #ffffff;
+  padding: 30px;
+  height: 100%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.email-form label {
+  font-weight: 500;
+  /* color: #5f687b; */
+  font-size: 14px;
+}
+
+.email-form .form-control {
+  border-radius: 0;
+  border: 1px solid #dee2e6;
+  padding: 10px 15px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #444444;
+}
+
+.email-form textarea {
+  resize: vertical;
+}
+
+/* Submit Button */
+.email-form button[type="submit"] {
+  background-color: #10bc69;
+  color: #ffffff;
+  padding: 10px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.email-form button[type="submit"]:hover {
+  background-color: #198754;
+  cursor: pointer;
+}
+
+/* Status Messages */
+.loading,
+.error-message,
+.sent-message {
+  display: none;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.sent-message {
+  color: #198754;
+}
+
+.error-message {
+  color: #dc3545;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .info-wrap,
+  .email-form {
+    padding: 20px;
+  }
+
+  .info-item {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .info-item i {
+    font-size: 24px;
+  }
+}

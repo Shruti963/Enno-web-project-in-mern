@@ -1,0 +1,31 @@
+.bg-white{
+    z-index: 50;
+    /* margin-top: 10px; */
+    margin: 0;
+        transition: all 0.5s;
+    z-index: 90;
+    padding: 15px 0 !important;
+        box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
+}
+.me-auto h1{
+  font-family: var(--heading-font, Arial, sans-serif);
+  font-size: 30px;
+  margin: 0;
+  font-weight: 700;
+  color: #5f687b;
+}
+.custom-nav .nav-link {
+    margin-right: 20px;
+  }
+  
+  .custom-nav .nav-link:last-child {
+    margin-right: 0;
+  }
+  
+.custom-button {
+    border-radius: 30px !important;
+    padding: 7px 20px !important;
+}
+
+
+

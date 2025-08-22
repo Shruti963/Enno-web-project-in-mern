@@ -1,0 +1,58 @@
+import './App.css';
+import Header from './components/Header';
+import { BrowserRouter } from 'react-router-dom';
+// , Routes, Route 
+// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Home from './components/Home';
+import About from './components/About';
+import ServicesCard from './components/Services';
+import Portfolio from './components/Portfolio';
+import Testimonials from './components/Testimonials';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import TeamSection from './components/TeamSection';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import React, { useEffect } from "react";
+
+
+
+function App() {
+  useEffect(() => {
+  AOS.init({ duration: 1000 });
+}, []);
+
+  return (
+    <>
+      <BrowserRouter>
+        <Header></Header>
+        <Home></Home>
+        <About></About>
+        <section id="services" className=" Services-Card">
+          <div className="Head-title ">
+            <span>Services</span>
+            <h1>Services</h1>
+            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+          </div>
+          <ServicesCard></ServicesCard>
+        </section>
+        <Portfolio></Portfolio>
+        <Testimonials></Testimonials>
+        <TeamSection></TeamSection>
+        <Contact></Contact>
+        {/* <Routes>
+
+          <Route path="/" element={<Home></Home>}></Route>
+          <Route path="/about" element={<About></About>} />
+
+        </Routes> */}
+        <Footer></Footer>
+      </BrowserRouter>
+    </>
+  );
+}
+
+export default App;
