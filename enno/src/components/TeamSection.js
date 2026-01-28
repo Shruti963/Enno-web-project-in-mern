@@ -56,7 +56,7 @@ const TeamSection = () => {
                                         <span>{member.role}</span>
                                         <div className="social">
                                             {member.social.map((platform, i) => (
-                                                <a href="#" key={i}><i className={`bi bi-${platform}`}></i></a>
+                                                <a href="/" key={i}><i className={`bi bi-${platform}`}></i></a>
                                             ))}
                                         </div>
                                     </div>
