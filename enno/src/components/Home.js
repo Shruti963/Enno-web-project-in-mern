@@ -17,7 +17,7 @@ const Home = () => {
               <span  className="btn-get-started gt text-light">Get Started</span>
             </Button>
 
-            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" className="border-none  btn-watch-video d-flex align-items-center"><p className="bi  watch-video "><BiPlayCircle className='playCircle' /><span>Watch Video</span></p></a>
+            <a href="/home" className="border-none  btn-watch-video d-flex align-items-center"><p className="bi  watch-video "><BiPlayCircle className='playCircle' /><span>Watch Video</span></p></a>
 
           </div>
         </div>

@@ -1,46 +1,4 @@
-/* .aboutHeading {
-  opacity: 1;
-  -webkit-transform: none;
-  transform: none;
-  text-align: center; */
-  /* padding: 30px 0; */
-  /* margin-bottom: 30px;
-  position: relative;
-} */
 
-/* .aboutHeading span {
-  position: relative;
-  top: 40px;
-  color: color-mix(in srgb, #777a7e, transparent 95%);
-  z-index: 1;
-  font-weight: 700;
-  font-size: 52px;
-  text-transform: uppercase; */
-  /* color: rgba(121, 119, 119, 0.1); light gray */
-/* } */
-/* 5f687b */
-
-/* .aboutHeading h1 {
-  font-size: 32px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  padding-bottom: 0;
-  position: relative;
-  z-index: 2;
-  color: #5f687b;
-  font-family: "Raleway", sans-serif;
-} */
-
-/* .aboutHeading p {
-  margin-bottom: 0;
-  position: relative;
-  z-index: 2;
-} */
-/* .videoText{
-    padding-top: 30px;
-
-} */
 .videoText .about-img {
   padding: 25px;
 }
