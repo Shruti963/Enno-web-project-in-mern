@@ -50,6 +50,7 @@
     ]
   },
   "devDependencies": {
+    "cross-env": "^10.1.0",
     "eslint-config-react-app": "^7.0.1"
   }
 }
