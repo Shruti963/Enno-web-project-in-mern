@@ -8,7 +8,7 @@ dotenv.config();
 
 const app = express();
 
-app.use(cors()); // ✅ FIX
+app.use(cors());
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
@@ -17,12 +17,23 @@ mongoose
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.error("MongoDB connection error:", err));
 
+// ✅ ADD THIS
+const userSchema = new mongoose.Schema({
+  name: String,
+  email: String,
+  subject: String,
+  message: String,
+});
+
+const User = mongoose.model("User", userSchema, "ennoUserData");
+
+// Routes
 app.post("/create", async (req, res) => {
   try {
     const user = new User(req.body);
     await user.save();
     res.status(201).json({ message: "User created", user });
-  } catch {
+  } catch (err) {
     res.status(500).json({ error: "Failed to create user" });
   }
 });
@@ -31,7 +42,7 @@ app.get("/create", async (req, res) => {
   try {
     const data = await User.find();
     res.json(data);
-  } catch {
+  } catch (err) {
     res.status(500).json({ error: "Failed to fetch users" });
   }
 });
