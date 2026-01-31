@@ -12,10 +12,12 @@ dotenv.config();
 const app = express();
 
 // middleware
-app.use(cors({
-  origin: process.env.FRONTEND_URL,
-  methods: ["GET", "POST"],
-}));
+app.use(cors(
+//   {
+//   origin: process.env.FRONTEND_URL,
+//   methods: ["GET", "POST"],
+// }
+));
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
